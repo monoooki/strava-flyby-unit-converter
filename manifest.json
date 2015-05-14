@@ -1,0 +1,12 @@
+{
+  "name": "Strava Flyby: Activity Distance Mile to Kilometer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Convert mile to kilometer.",
+  "content_scripts": [
+    {
+      "matches": ["http://labs.strava.com/flyby/*"],
+      "js": ["conv.js"]
+    }
+  ]
+}
